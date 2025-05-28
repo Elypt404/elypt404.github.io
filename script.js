@@ -15,3 +15,7 @@ PARTICLES.forEach(P => {
 		--size: ${RANDOM(40, 90) / 100};
 	`);
 });
+const button = document.querySelector('button'); // or use an ID/class selector if multiple buttons
+button.addEventListener('click', () => {
+  window.location.href = 'Realindex.html';
+});
