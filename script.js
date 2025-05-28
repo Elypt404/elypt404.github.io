@@ -13,5 +13,6 @@ PARTICLES.forEach(P => {
 		--origin-x: ${Math.random() > 0.5 ? RANDOM(300, 800) * -1 : RANDOM(300, 800)}%;
 		--origin-y: ${Math.random() > 0.5 ? RANDOM(300, 800) * -1 : RANDOM(300, 800)}%;
 		--size: ${RANDOM(40, 90) / 100};
-	`)
+
+ `)
 })
