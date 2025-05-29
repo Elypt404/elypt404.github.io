@@ -24,4 +24,3 @@ ctrl.addBinding(config, 'debug', { label: 'debug' })
 ctrl.addBinding(config, 'blend', { label: 'mix-blend-mode' })
 ctrl.on('change', sync)
 sync()
-
