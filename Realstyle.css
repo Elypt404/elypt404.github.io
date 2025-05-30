@@ -8,6 +8,10 @@
  * of the scroll effects on https://www.alpenite.com/en/
  */
 
+@media (max-width: 735px) {
+  /* Your responsive styles here */
+}
+
 
 *,*::before,*::after { box-sizing: border-box; }
 
